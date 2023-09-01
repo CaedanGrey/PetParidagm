@@ -193,3 +193,6 @@ li::marker {
     width: 100%;
     height: auto;
 }
+.carousel {
+    background: transparent;
+}
