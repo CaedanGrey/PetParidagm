@@ -184,3 +184,8 @@ li::marker {
 .navbar-brand, .nav-link {
     color: #676767; /* Font color */
 }
+.logo {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px; 
+}
