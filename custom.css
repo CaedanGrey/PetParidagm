@@ -176,3 +176,11 @@ ul {
 li::marker {
     font-size: 0;
 }
+.navbar {
+    background-color: #003B6D; /* Midnight Blue background color */
+}
+
+/* CSS for the navigation links */
+.navbar-brand, .nav-link {
+    color: #676767; /* Font color */
+}
