@@ -227,17 +227,6 @@ a{
     background-color: #bdbdbd;
     color: black;
 }
-.img-logo {
-    width: 7.5rem;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.img-thumbnail {
-    width: 5rem;
-    height: auto;
-}
 .consult-btn{
     margin-right: 0.5rem;
 }
