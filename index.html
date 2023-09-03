@@ -90,7 +90,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="overlay-image" style="background-image:url(./cats5.jpg);"
+            <div class="overlay-image" style="background-image:url(./cat5.jpg);"
                 alt="Cat Chilling on Stairs">
             </div>
             <div class="container-carousel-items">
@@ -115,7 +115,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="overlay-image" style="background-image:url(fish2.jpg);"
+            <div class="overlay-image" style="background-image:url(fish1.jpg);"
                 alt="Fish in an Aquarium">
             </div>
             <div class="container-carousel-items">
@@ -150,10 +150,50 @@
 </div>
 
         <!--City Row-->
-        <div class="container px-4 py-5" id="alaska-facts">
-            <h2>Alaska Facts</h2>
+        <div class="container px-4 py-5" id="Pet-Consultation">
+            <h2>Pet Consultations</h2>
             <p>Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.
-
+            </p>
+            <form>
+                <h3 style="text-align:center">Contact Us Form</h3>
+                <aside>
+                    <p>We would love to hear from you!</p>
+                </aside>
+                <div class="mb-3">
+                    <label for="yourname" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="yourname" placeholder="Enter your your name">
+                </div>
+                <div class="mb-3">
+                    <label for="phonenumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phonenumber" placeholder="Enter your phone number">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="emailConfirmation" class="form-label">Confirm Email Address</label>
+                    <input type="email" class="form-control" id="emailConfirmation"
+                        placeholder="Please re-enter your email address" oninput="verifyEmail()" required>
+                    <p id="emailMismatch" style="color: red; display: none;">Email addresses do not match.</p>
+                </div>
+                <div class="mb-3">
+                    <label for="timezone" class="form-label">timeZone</label>
+                    <input type="text" class="form-control" id="timezone" placeholder="Enter your timezone">                
+                <div class="mb-3">
+                    <label for="petname" class="form-label">Pet's Name</label>
+                    <input type="text" class="form-control" id="petname" placeholder="Enter your Pet's Name">
+                <div class="mb-3">
+                    <label for="pettype" class="form-label">Pet's type</label>
+                    <input type="text" class="form-control" id="pettype" placeholder="Enter your Pet's Type">
+                 <div class="mb-3">
+                    <label for="petage" class="form-label">Pet's type</label>
+                    <input type="text" class="form-control" id="petage" placeholder="Enter your Pet's Age">
+                </div>
+                <input type="reset" value="Clear">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          
                 Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion. 
                 
                 Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:
@@ -166,89 +206,7 @@
                   </ul>
                 We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.
                 </p>
-        </div>
-        <div class="container marketing">
-
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="circular-image-row" src="alaska-anchorage.jpg"
-                        alt="Picture of the Anchorage wilderness">
-                    <h2 class="fw-normal">Anchorage</h2>
-                    <p>Set against a backdrop of mountains and the Cook Inlet, Anchorage harmonizes urban living with
-                        boundless outdoor exploration.</p>
-                    <p><a class="btn btn-secondary" href="./city-anchorage.html">Visit Anchorage »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="circular-image-row" src="alaska-juneau.jpg"
-                        alt="Snapshot of one of the many native humpback whales that annualy visit Juneau, Alaska">
-                    <h2 class="fw-normal">Juneau</h2>
-                    <p>Huddled along the Gastineau Channel, Juneau, the capital city, weaves history, natural beauty,
-                        and artistic expression into a unique tapestry.</p>
-                    <p><a class="btn btn-secondary" href="./city-juneau.html">Visit Juneau »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="circular-image-row" src="alaska-skagway.jpg"
-                        alt="Snapshot of the famous White Pass Scenic Train that scales to the top of the mountains">
-                    <h2 class="fw-normal">Skagway</h2>
-                    <p>Echoes of the Klondike Gold Rush resonate through Skagway's well-preserved avenues, nestled
-                        amidst awe-inspiring fjords and mountains.</p>
-                    <p><a class="btn btn-secondary" href="./city-skagway.html">Visit Skagway »</a></p>
-                </div>
             </div>
-
-            <!--End of City Row-->
-            <hr class="featurette-divider">
-
-            <div>
-                <h6>Resources</h6>
-                <ul>
-                    <li>A. (2023). Skagway Sled Adventure Mushers Camp [Photograph].
-                        <a
-                            href="https://uploads.alaska.org/suppliers/activities/A/alaskaX/skagway-sled-dog-adventure-mushers-camp/_333x222_crop_center-center_65_none/Moira-Finn-SGY-Mushers-38_220121_163613.jpg">
-                            https://uploads.alaska.org/suppliers/activities/A/alaskaX/skagway-sled-dog-adventure-mushers-camp/_333x222_crop_center-center_65_none/Moira-Finn-SGY-Mushers-38_220121_163613.jpg</a>
-                    </li>
-                    <li>A. (2023, August 16). Visit Skagway. Retrieved August 16, 2023, from
-                        <a href="https://www.alaska.org/destination/skagway#related-advice">
-                            https://www.alaska.org/destination/skagway#related-advice</a>
-                    </li>
-                    <li>DeYoung, M. (2023). Anchorage Alaska [Photograph].
-                        <a href="https://www.anchorage.net/things-to-do/">
-                            https://www.anchorage.net/things-to-do/</a>
-                    </li>
-                    <li>Kaufman, B. (2023). Anchorage Aerial Alaska [Photograph].
-                        <a
-                            href="https://uploads.alaska.org/destinations/anchorage/heros/_1800xAUTO_crop_center-center_65_none/anchorage-aerial-alaska-Alaska-Channel.jpg">
-                            https://uploads.alaska.org/destinations/anchorage/heros/_1800xAUTO_crop_center-center_65_none/anchorage-aerial-alaska-Alaska-Channel.jpg</a>
-                    </li>
-                    <li>M. B. (2023). Photo of White Pass Yukon Route Railway [Photograph]. Microsoft Bing.
-                        <a
-                            href="https://bing.com/th?id=OSGI.EDF33C1F9934BD3B73ABFC2DE6A33F80&amp;h=1000&amp;w=1920&amp;c=1&amp;rs=1&amp;o=3&quot">https://bing.com/th?id=OSGI.EDF33C1F9934BD3B73ABFC2DE6A33F80&amp;h=1000&amp;w=1920&amp;c=1&amp;rs=1&amp;o=3&quot</a>
-                    </li>
-                    <li>U. C. B. (2021, January 1). Quick Facts Alaska. United States Census Bureau. Retrieved August
-                        15, 2023, from
-                        <a href="https://www.census.gov/quickfacts/fact/table/AK/PST045222">
-                            https://www.census.gov/quickfacts/fact/table/AK/PST045222</a>
-                    </li>
-                    <li>Walsh, P. (2023). Whale Watching [Photograph].
-                        <a
-                            href="https://www.alaska.org/things-to-do/whale-watching">https://www.alaska.org/things-to-do/whale-watching</a>
-                    </li>
-                    <li>(2023, August 16). Visit Anchorage Alaska. Visit Anchorage Alaska. Retrieved August 16, 2023,
-                        from
-                        <a href="https://www.anchorage.net/">
-                            https://www.anchorage.net/</a>
-                    </li>
-                    <li>(2023, August 16). Discover Juneau. Travel Juneau. Retrieved August 16, 2023, from
-                        <a href="https://www.traveljuneau.com/discover-juneau/about-our-town/">
-                            https://www.traveljuneau.com/discover-juneau/about-our-town/</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </section>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -261,5 +219,4 @@
         integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
