@@ -258,3 +258,10 @@ a{
 .question-div{
     margin-top: 2rem;
 }
+}
+.carousel-item1 {
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
