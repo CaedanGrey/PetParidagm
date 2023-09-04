@@ -68,12 +68,11 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-img {
-    height: 10rem;
-    width: 10rem;
-    position: center;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+.carousel img {
+    max-height: 400px; 
+    width: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 li {
@@ -246,4 +245,15 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 400px;}
+    min-height: 400px;
+}
+    .advice ul {
+        text-align: center;
+}
+    .advice ul {
+        text-align: center;
+}
+    .advice ul li {
+    text-align: left; /* Align the text within list items to the left */
+    list-style-position: inside; /* Place the bullet points inside the list items */
+}
