@@ -257,3 +257,6 @@ a{
     text-align: left; /* Align the text within list items to the left */
     list-style-position: inside; /* Place the bullet points inside the list items */
 }
+#myCarousel .carousel-item .container-carousel-items {
+    color: black;
+}
