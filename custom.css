@@ -277,5 +277,5 @@ a{
     list-style-position: inside; /* Place the bullet points inside the list items */
 }
 #myCarousel .carousel-item .container-carousel-items {
-    color: black;
+    color: black !important; /* Add !important to override other CSS rules */
 }
