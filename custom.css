@@ -15,6 +15,7 @@ aside {
 
 aside>p {
     margin: 0.5rem;
+}
 
 .carousel-control-prev {
     width: 5% !important;
@@ -237,8 +238,7 @@ a{
 .question-div{
     margin-top: 2rem;
 }
-}
-.logo {
+.logo{
     width: 25%;
     max-width: 40px;
 }
@@ -247,3 +247,4 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     min-height: 400px; /*
+}
