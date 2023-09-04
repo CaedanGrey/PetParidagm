@@ -67,52 +67,45 @@
   </header>
   <div class="row">
     <div class="col-md-6">
-        <H1> Over 12 Years of Excellence!</H1>
+        <h1>Over 12 Years of Excellence!</h1>
         <p class="Home Summary">Pets are nature's gift to humanity as it has been scientifically proven they increase the 
             longevity of both the owners' and pets' lives and improve the overall quality of life for everyone involved. 
             Our mission to you and pets, big and small, is to offer resources to help you care for your furry, scaly, feathery, 
             or slimy loved ones. Click the links below to learn more about each type of pet.</p>
-<!-- Carousel -->
-<div class="col-md-6">
-    <div id="carouselHomeIndicators" class="align-content-lg-center carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselHomeIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselHomeIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselHomeIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselHomeIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselHomeIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-    <div class="carousel-inner">
+    </div>
+    <div class="col-md-6">
+        <!-- Carousel -->
+        <div id="carouselHomeIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="color: black;">
+                    <div class="overlay-image" style="background-image:url(./dog3.jpg);"
+                        alt="Dog Carrying a Giant Branch">
+                        <div class="container-carousel-items">
+                            <h1>Dogs</h1>
+                            <p>The domestic dog is an extremely social animal and offers a diverse variety of 
+                                choices as there are well over 300 breeds recognized by the World Canine Organization</p>
+                            <a href="./dogs.html" class="btn btn-lg btn-primary">
+                                Learn More About Dogs
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="overlay-image" style="background-image:url(./cat1.jpg);"
+                        alt="Cat Chilling on Stairs">
+                        <div class="container-carousel-items" style="color: black;">
+                            <h1>Cats</h1>
+                            <p>Cats were first domesticated around 7500 BCE in the western Asia region and are currently 
+                                the second most popular domestic pet in the United States.</p>
+                            <a href="./cats.html" class="btn btn-lg btn-primary">
+                                Learn More About Cats
+                            </a>
+                        </div>
+                    </div>
+                </div>
         <div class="carousel-item">
-            <div class="overlay-image" style="background-image:url(./dog3.jpg);"
-                alt="Dog Carrying a Giant Branch">
-            </div>
-            <div class="container-carousel-items" style="color: black;">
-                <h1>Dogs</h1>
-                <p>The domestic dog is an extremely social animal and offers a diverse variety of 
-                    choices as there are well over 300 breeds recognized by the World Canine Organization</p>
-                <a href="./dogs.html" class="btn btn-lg btn-primary">
-                    Learn More About Dogs
-                </a>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="carousel-item active">
-                <img src="./cat1.jpg" class="d-block img-fluid" alt="cat photo 1">
-            </div>
-            <div class="container-carousel-items" style="color: black;">
-                <h1>Cats</h1>
-                <p>Cats were first domesticated around 7500 BCE in the western Asia region and are currently 
-                    the second most popular domestic pet in the United States..</p>
-                <a href="./cats.html" class="btn btn-lg btn-primary">
-                    Learn More About Cats
-                </a>
-            </div>
-        </div>
-        <div class="carousel-item active">
             <div class="overlay-image" style="background-image:url(birds2.jpg);"
                 alt="A Cockatil Bird Posing">
-            </div>
             <div class="container-carousel-items" style="color: black;">
                 <h1>Birds</h1>
                 <p>Birds are amazing and each breed is unique in its own way, particularly when it comes to their relational needs and well-being. </p>
@@ -121,10 +114,10 @@
                 </a>
             </div>
         </div>
+    </div>
         <div class="carousel-item">
             <div class="overlay-image" style="background-image:url(fish1.jpg);"
                 alt="Fish in an Aquarium">
-            </div>
             <div class="container-carousel-items" style="color: black;">
                 <h1>Fishes</h1>
                 <p>Fish represent a broad class of aquatic animals that can live in fresh or saltwater, depending on the species.</p>
@@ -133,10 +126,10 @@
                 </a>
             </div>
         </div>
+    </div>
         <div class="carousel-item">
             <div class="overlay-image" style="background-image:url(snake1.jpg);"
                 alt="A snake slithering on bed looking out">
-            </div>
             <div class="container-carousel-items" style="color: black;">
                 <h1>Small Pets</h1>
                 <p>Sometimes we want a pet in our life but think it’s impossible because we are not home enough to take care of it, or we don’t have enough room</p>
@@ -144,16 +137,20 @@
                     Learn More About Small Pets
                 </a>
             </div>
+            </div>      
         </div>
     </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+</div>
+<a class="carousel-control-prev" href="#carouselHomeIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselHomeIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
 </div>
         <div class="container px-4 py-5" id="Pet-Consultation">
             <h2 class="text-center">Evidence-Based Pet Care Advice for Every Pet lover</h2>
